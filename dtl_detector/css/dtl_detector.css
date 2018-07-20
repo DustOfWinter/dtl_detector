@@ -1,0 +1,22 @@
+.dtl-detector.dev{
+	background-color: #F8333C !important;
+    background-image: -moz-linear-gradient(bottom,#F9585F,#F8333C) !important;
+    background-image: -webkit-gradient(linear,left bottom,left top,from(#F9585F),to(#F8333C)) !important;
+}
+
+.dtl-detector.test{
+	background-color: #2B9EB3 !important;
+    background-image: -moz-linear-gradient(bottom,#51AFC0,#2B9EB3) !important;
+    background-image: -webkit-gradient(linear,left bottom,left top,from(#51AFC0),to(#2B9EB3)) !important;
+}
+
+.dtl-detector.live{
+	background-color: #44AF69 !important;
+    background-image: -moz-linear-gradient(bottom,#66BD84,#44AF69) !important;
+    background-image: -webkit-gradient(linear,left bottom,left top,from(#66BD84),to(#44AF69)) !important;
+}
+
+#wpadminbar:not(.mobile) .ab-top-menu>.dtl-detector:hover>.ab-item{
+	background: initial;
+	color: white;
+}
